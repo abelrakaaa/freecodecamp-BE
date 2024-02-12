@@ -1,0 +1,41 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "fcc-learn-node-with-express"
+      version: "0.1.0"
+      dependencies: 
+        body-parser: "^1.15.2"
+        cookie-parser: "^1.4.3"
+        dotenv: "^16.0.1"
+        express: "^4.14.0"
+        fcc-express-bground: "git+https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      readme: "# Basic Node and Express\n\nThis is the boilerplate code for the Basic Node and Express Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/apis-and-microservices/basic-node-and-express/\n"
+      readmeFilename: "README.md"
+      gitHead: "73eab99994c03889211252b046dc1df3faf8228f"
+      description: "This is the boilerplate code for the Basic Node and Express Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/apis-and-microservices/basic-node-and-express/"
+      _id: "fcc-learn-node-with-express@0.1.0"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving body-parser that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/4fdf4838-4f7e-4be0-894e-17ec5ebfac72/node_modules/body-parser"
+      dest: "/rbd/pnpm-volume/4fdf4838-4f7e-4be0-894e-17ec5ebfac72/node_modules/.ignored/body-parser"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/4fdf4838-4f7e-4be0-894e-17ec5ebfac72/node_modules/body-parser' -> '/rbd/pnpm-volume/4fdf4838-4f7e-4be0-894e-17ec5ebfac72/node_modules/.ignored/body-parser'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/4fdf4838-4f7e-4be0-894e-17ec5ebfac72/node_modules/body-parser' -> '/rbd/pnpm-volume/4fdf4838-4f7e-4be0-894e-17ec5ebfac72/node_modules/.ignored/body-parser'"
